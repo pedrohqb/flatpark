@@ -43,16 +43,16 @@ modules:
         filename: magpie-linux-amd64
         only-arches:
           - x86_64
-        url: https://github.com/yetone/magpie-releases/releases/download/v0.1.4670/magpie-linux-amd64
-        sha256: 039625e3df0c8124fea42f666cceb8e999a91533d0e34d9f289d4a0a895eacef
-        size: 105429688
+        url: https://github.com/yetone/magpie-releases/releases/download/v0.1.4685/magpie-linux-amd64
+        sha256: b8d6468d066b435a05948ff527f8f761236577958246f47f256a006266504a1d
+        size: 105515576
       - type: extra-data
         filename: magpie-linux-arm64
         only-arches:
           - aarch64
-        url: https://github.com/yetone/magpie-releases/releases/download/v0.1.4670/magpie-linux-arm64
-        sha256: 77cd0fa96355a29016f8e161ca84ba7b47143c31bb8f3ceaff33dbba0c955a3c
-        size: 97115680
+        url: https://github.com/yetone/magpie-releases/releases/download/v0.1.4685/magpie-linux-arm64
+        sha256: fb0895af31df6662f3aa2987fbe2333f37b0c4a865f6d9b1bcaac2814532c428
+        size: 97197504
       # END MANAGED EXTRA-DATA
       - type: file
         path: apply_extra.sh
